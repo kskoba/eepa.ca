@@ -96,15 +96,15 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Kevin Skoblenick"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "MD, MSc, PhD, FRCPC (Emergency Medicine)"
+        affiliation: "Royal Alexandra Hospital and University of Alberta"
+        bio: "Kevin does research."
+        image: "/images/speakers/kevins.jpg"
 
   - type: "session"
     start: "10:55"
     end: "11:20"
-    title: "Topic 6: Pediatric Emergency Medicine: 5 common RAAPID North calls and how we can do better."
+    title: "Topic 6: Pediatric Emergency Medicine: 5 common RAAPID North calls and how we can do better"
     synopsis: ""
     speakers:
       - name: "Dr. Stevi Golden-Plotnik"
@@ -145,7 +145,7 @@ schedule:
   - type: "session"
     start: "12:55"
     end: "13:35"
-    title: "Topic 9: Brain Injury Guidelines (BIG). How validated new evidence can improve efficiency in the ED."
+    title: "Topic 9: Brain Injury Guidelines (BIG). How validated new evidence can improve efficiency in the ED"
     synopsis: ""
     speakers:
       - name: "Dr. Matt Strickland"
