@@ -6,10 +6,10 @@ name = "Home"
 url = "/"
 weight = 1
 
-#[[main]]
-#name = "About"
-#url = "/about"
-#weight = 2
+[[main]]
+name = "About"
+url = "/about"
+weight = 5
 
 #[[main]]
 #name = "Elements"
@@ -48,7 +48,7 @@ weight = 1
 [[main]]
 name = "Conference 2026"
 url = "/conference/"
-weight = 10
+weight = 2
 
 
 # footer menu
