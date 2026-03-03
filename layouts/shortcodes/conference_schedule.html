@@ -4,6 +4,14 @@
 
 <section class="mx-auto max-w-5xl">
   <!-- Header / Hero -->
+  	  	{{/* Conference Logo */}}
+	<div class="mt-6 mb-6 flex justify-left">
+	  <img 
+		src="/images/conference-2026-logo.jpg" 
+		alt="EEPA High5 2026 Conference Logo"
+		class="max-w-[420px] w-full h-auto object-contain"
+	  />
+	</div>
   <header class="mb-10 border-b pb-8
                  border-[#3A4750]/20 dark:border-[#D3D6DB]/20">
     <h1 class="text-4xl font-semibold tracking-tight
@@ -16,8 +24,8 @@
                 text-[#3A4750] dark:text-[#D3D6DB]/80">
         {{ . }}
       </p>
-    {{ end }}
 
+    {{ end }}
     <div class="mt-7 space-y-3 text-base">
       {{ with $data.date }}
         <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-4">
@@ -88,6 +96,24 @@
           {{ if ne $rc "" }} Royal College {{ $rc }}{{ end }}
         </div>
       {{ end }}
+	  <!-- Agenda / Objectives Buttons -->
+	  <div class="mt-6 flex flex-wrap gap-3">
+	    <a class="inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold
+		  		bg-[#BE3144] text-[#D3D6DB] hover:opacity-90"
+		   href="/files/EEPA-Agenda-2026.pdf"
+		   target="_blank"
+		   rel="noopener">
+		  Agenda
+	    </a>
+
+	    <a class="inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold
+		  		bg-[#BE3144] text-[#D3D6DB] hover:opacity-90"
+		   href="/files/EEPA-Objectives-2026.pdf"
+		   target="_blank"
+		   rel="noopener">
+		  Objectives
+	    </a>
+	  </div>
     {{ end }}
   </header>
 
