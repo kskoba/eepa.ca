@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <main class="container">
+    <div class="mx-auto max-w-6xl py-10">
+      {{/* If your theme already renders breadcrumbs elsewhere, you can remove this */}}
+      {{ if .IsHome }}{{ else }}
+        <div class="mb-6 text-sm opacity-70">
+          <a href="{{ "/" | relLangURL }}">Home</a> / {{ .Title }}
+        </div>
+      {{ end }}
+
+      {{/* This is the important line */}}
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}

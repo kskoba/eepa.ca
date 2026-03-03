@@ -1,14 +1,14 @@
 ---
-enable: true
-title: "Ready to build your next project with Hugo?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility."
-button:
-  enable: true
-  label: "Fork Deploy and Edit Online 🚀"
-  link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate/"
-
-# don't create a separate page
-build:
-  render: "never"
+title: "EEPA"
+draft: false
 ---
+
+# Temporary EEPA landing page
+
+This site is under construction. Please check back soon.
+
+<a href="/conference/"
+   class="mt-6 inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold
+          bg-[#BE3144] text-[#D3D6DB] hover:opacity-90">
+  Conference 2026
+</a>

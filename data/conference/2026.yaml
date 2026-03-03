@@ -1,0 +1,80 @@
+year: 2026
+title: "EEPA Conference 2026"
+subtitle: "Edmonton Emergency Physicians' Association Biennial Symposium"
+
+date: "Saturday, May 23, 2026"
+location: "TBD – Edmonton, Alberta"
+
+accreditation:
+  mainpro: "TBD"
+  royal_college: "TBD"
+
+registration:
+  status: "Opening Soon"
+  url: ""
+
+schedule:
+  - type: "break"
+    start: "07:30"
+    end: "08:15"
+    title: "Registration & Breakfast"
+
+  - type: "session"
+    start: "08:15"
+    end: "08:25"
+    title: "Welcome"
+    synopsis: ""
+    speakers: []
+
+  - type: "session"
+    start: "08:30"
+    end: "09:05"
+    title: "Title of Talk 1"
+    synopsis: >
+      Short description of the talk. This will appear inside a collapsible
+      section beneath the talk title. Keep this to 2–5 sentences.
+    speakers:
+      - name: "Dr. First Speaker"
+        credentials: "MD, FRCPC"
+        affiliation: "University of Alberta"
+        bio: >
+          Short professional biography. This appears in a secondary collapsible
+          section under the speaker name.
+        image: "/images/speakers/first-speaker.jpg"
+
+  - type: "session"
+    start: "09:05"
+    end: "09:40"
+    title: "Title of Talk 2"
+    synopsis: >
+      Talk synopsis goes here.
+    speakers:
+      - name: "Dr. Second Speaker"
+        credentials: "MD"
+        affiliation: "Royal Alexandra Hospital"
+        bio: >
+          Short bio text here.
+        image: "/images/speakers/second-speaker.jpg"
+
+  - type: "break"
+    start: "10:15"
+    end: "10:30"
+    title: "Morning Break"
+
+  - type: "session"
+    start: "10:30"
+    end: "11:05"
+    title: "Panel Discussion Title"
+    synopsis: >
+      Description of panel format.
+    speakers:
+      - name: "Dr. A"
+        credentials: "MD"
+        affiliation: ""
+        bio: "Short bio."
+        image: ""
+      - name: "Dr. B"
+        credentials: "MD"
+        affiliation: ""
+        bio: "Short bio."
+        image: ""
