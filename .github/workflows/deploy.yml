@@ -39,6 +39,8 @@ jobs:
           extended: true
 
       - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
         run: |
           npm run build
           ls -la public
