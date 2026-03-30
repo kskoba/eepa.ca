@@ -42,7 +42,7 @@ schedule:
     speakers:
       - name: "Dr. Heather Burnett"
         credentials: "BSc, MD, FRCSC"
-        bio: "Dr. Burnett completed her Bachelor of Science and medical degree at Queen’s University before finishing her Ophthalmology residency at the University of Alberta. She is now a Comprehensive Ophthalmologist and Associate Clinical Professor at the University of Alberta. Her practice includes both medical and surgical care with particular expertise in complex cataract surgery. She has contributed internationally through work with ORBIS in El Salvador and remains engaged in global eye care efforts. In addition to her clinical work, she is an active educator and researcher, serving on the Residency Training Committee, directing surgical simulation, mentoring trainees, and presenting and publishing her work at national and international forums.
+        bio: "Dr. Burnett completed her Bachelor of Science and medical degree at Queen’s University before finishing her Ophthalmology residency at the University of Alberta. She is now a Comprehensive Ophthalmologist and Associate Clinical Professor at the University of Alberta. Her practice includes both medical and surgical care with particular expertise in complex cataract surgery. She has contributed internationally through work with ORBIS in El Salvador and remains engaged in global eye care efforts. In addition to her clinical work, she is an active educator and researcher, serving on the Residency Training Committee, directing surgical simulation, mentoring trainees, and presenting and publishing her work at national and international forums."
         image: "/images/speakers/heatherb.jpg"
 
   - type: "session"
