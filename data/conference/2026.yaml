@@ -85,28 +85,11 @@ schedule:
         
       - name: "Dr. Louis Francescutti"
         credentials: "CD, MSM, MD, PhD, MPH, FRCPC, FACP, FACPM, CCFP(PC), FRCPI, FRCPE, FRCP, FRCPG, ICD-D, CCPE"
-        bio: "He is currently an emergency physician at the Royal Alexandra Hospital and the Northeast
-        Community Health Centre in Edmonton, Alberta, Canada. As a professor in the School of Public
-        Health at the University of Alberta, he teaches graduate courses in transformational leadership,
-        advocacy and public health.
-        Dr. Francescutti was selected as one of Alberta’s Top 100 Physicians of the Century by the Alberta
-        Medical Association/College of Physicians and Surgeons of Alberta and he was also awarded the
-        Alberta Centennial Medal from the Government of Alberta in 2005. In 2011, he was selected by
-        Alberta Venture as one of Alberta’s 50 most influential people. In 2012, he was awarded the
-        Queen Elizabeth II Diamond Jubilee medal. In 2022, he was awarded the Queen Elizabeth II
-        Platinum Jubilee medal. In 2023, Louis was honored with the Order of Canada.
-        From 2010 - 2013 he served as the President of the Royal College of Physicians and Surgeons of
-        Canada and in 2014 - 2015 he then became the President of the Canadian Medical Association.
-        He is the Honorary Colonel for 1 Health Services Group of the Royal Canadian Medical Services
-        based in Edmonton. In 2017, he was awarded a Military Meritorious Service Medal from the
-        Governor General of Canada at Rideau Hall in Ottawa.
-        Currently, he is developing Bridge Healing, a program to address the immediate needs of our
-        society’s most vulnerable individuals – patients in our emergency departments experiencing
-        homelessness.
-        A recognized storyteller Dr. Francescutti has delivered well over 1,500 presentations worldwide to
-        a variety of diverse audiences – from industry to governments and to the public.
-        He was recently appointed Chair of the Board of the Canadian Centre for Substance Use and
-        Addiction."
+        bio: "He is currently an emergency physician at the Royal Alexandra Hospital and the Northeast Community Health Centre in Edmonton, Alberta, Canada. As a professor in the School of PublicHealth at the University of Alberta, he teaches graduate courses in transformational leadership, advocacy and public health.
+        Dr. Francescutti was selected as one of Alberta’s Top 100 Physicians of the Century by the Alberta Medical Association/College of Physicians and Surgeons of Alberta and he was also awarded theAlberta Centennial Medal from the Government of Alberta in 2005. In 2011, he was selected by Alberta Venture as one of Alberta’s 50 most influential people. In 2012, he was awarded the Queen Elizabeth II Diamond Jubilee medal. In 2022, he was awarded the Queen Elizabeth II Platinum Jubilee medal. In 2023, Louis was honored with the Order of Canada.
+        From 2010 - 2013 he served as the President of the Royal College of Physicians and Surgeons of Canada and in 2014 - 2015 he then became the President of the Canadian Medical Association. He is the Honorary Colonel for 1 Health Services Group of the Royal Canadian Medical Services based in Edmonton. In 2017, he was awarded a Military Meritorious Service Medal from the Governor General of Canada at Rideau Hall in Ottawa. 
+        Currently, he is developing Bridge Healing, a program to address the immediate needs of our society’s most vulnerable individuals – patients in our emergency departments experiencing homelessness.
+        A recognized storyteller Dr. Francescutti has delivered well over 1,500 presentations worldwide to a variety of diverse audiences – from industry to governments and to the public. He was recently appointed Chair of the Board of the Canadian Centre for Substance Use and Addiction."
         image: "/images/speakers/louisf.png"
 
   - type: "session"
@@ -160,7 +143,7 @@ schedule:
     speakers:
       - name: "Dr. Darren Lau"
         credentials: "MD, PhD, FRCPC"
-        bio: "Dr. Darren Lau (Assistant Professor, University of Alberta) is a general internal medicine physician at UAH / KEC. Among his varied diabetes-related research interests, he has examined the spread / uptake of SGLT-2 inhibitors and GLP-1 receptor agonists, and has contributed to the development of local guidelines for their use in adults with CKD. It was not too long ago that he was a trainee at RAH, and he is happy for the opportunity to share insights into "cardio-kidney-metabolic" agents with this audience."
+        bio: "Dr. Darren Lau (Assistant Professor, University of Alberta) is a general internal medicine physician at UAH / KEC. Among his varied diabetes-related research interests, he has examined the spread / uptake of SGLT-2 inhibitors and GLP-1 receptor agonists, and has contributed to the development of local guidelines for their use in adults with CKD. It was not too long ago that he was a trainee at RAH, and he is happy for the opportunity to share insights into 'cardio-kidney-metabolic' agents with this audience."
         image: "/images/speakers/darrenl.jpg"
 
   - type: "session"
