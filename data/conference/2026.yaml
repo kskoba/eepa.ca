@@ -27,12 +27,10 @@ schedule:
     speakers:
       - name: "Dr. Erin Bristow"
         credentials: ""
-        affiliation: ""
         bio: ""
         image: ""
       - name: "Dr. Dennis Lefebvre"
         credentials: ""
-        affiliation: ""
         bio: ""
         image: ""
 
@@ -43,10 +41,9 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Heather Burnett"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "BSc, MD, FRCSC"
+        bio: "Dr. Burnett completed her Bachelor of Science and medical degree at Queen’s University before finishing her Ophthalmology residency at the University of Alberta. She is now a Comprehensive Ophthalmologist and Associate Clinical Professor at the University of Alberta. Her practice includes both medical and surgical care with particular expertise in complex cataract surgery. She has contributed internationally through work with ORBIS in El Salvador and remains engaged in global eye care efforts. In addition to her clinical work, she is an active educator and researcher, serving on the Residency Training Committee, directing surgical simulation, mentoring trainees, and presenting and publishing her work at national and international forums.
+        image: "/images/speakers/heatherb.jpg"
 
   - type: "session"
     start: "08:55"
@@ -55,10 +52,9 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Kathryn Dong"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "MD, MSc, FRCPC, DRCPSC"
+        bio: "Dr. Kathryn Dong is the Alberta Health Services Chair in Emergency Medicine Research at the University of Alberta. In addition to her training in emergency and addiction medicine, she also completed a Masters in Population Health at the University of Alberta. Her clinical work is as an inpatient addiction medicine physician at the Royal Alexandra Hospital. Her work focuses on improving health care access and outcomes for people who use substances and seek care in emergency departments and acute care settings."
+        image: "/images/speakers/kathrynd.jpg"
 
   - type: "session"
     start: "09:20"
@@ -67,10 +63,9 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Anu Kumar"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "MD, FRCPC"
+        bio: "Dr. Kumar developed an interest in diagnostic imaging during medical school and completed residency in Diagnostic Radiology at the University of Toronto in 1995. She subsequently pursued subspecialty training in abdominal imaging at the University of Western Ontario, with a focus on abdominal and pelvic MRI, and have been based in Edmonton since 2001, where she serves as a Clinical Associate Professor with the University of Alberta and Diagnostic Imaging site lead at the Royal Alexandra Hospital. With over 25 years of practice, her work has focused on the expanding role of imaging and image-guided procedures in patient care, with an emphasis on collaborative, appropriate utilization of imaging resources."
+        image: "/images/speakers/anuk.jpg"
 
   - type: "break"
     start: "09:45"
@@ -85,20 +80,44 @@ schedule:
     speakers:
       - name: "Dr. Rob Wittmeier"
         credentials: ""
-        affiliation: ""
         bio: ""
         image: ""
+        
+      - name: "Dr. Louis Francescutti"
+        credentials: "CD, MSM, MD, PhD, MPH, FRCPC, FACP, FACPM, CCFP(PC), FRCPI, FRCPE, FRCP, FRCPG, ICD-D, CCPE"
+        bio: "He is currently an emergency physician at the Royal Alexandra Hospital and the Northeast
+        Community Health Centre in Edmonton, Alberta, Canada. As a professor in the School of Public
+        Health at the University of Alberta, he teaches graduate courses in transformational leadership,
+        advocacy and public health.
+        Dr. Francescutti was selected as one of Alberta’s Top 100 Physicians of the Century by the Alberta
+        Medical Association/College of Physicians and Surgeons of Alberta and he was also awarded the
+        Alberta Centennial Medal from the Government of Alberta in 2005. In 2011, he was selected by
+        Alberta Venture as one of Alberta’s 50 most influential people. In 2012, he was awarded the
+        Queen Elizabeth II Diamond Jubilee medal. In 2022, he was awarded the Queen Elizabeth II
+        Platinum Jubilee medal. In 2023, Louis was honored with the Order of Canada.
+        From 2010 - 2013 he served as the President of the Royal College of Physicians and Surgeons of
+        Canada and in 2014 - 2015 he then became the President of the Canadian Medical Association.
+        He is the Honorary Colonel for 1 Health Services Group of the Royal Canadian Medical Services
+        based in Edmonton. In 2017, he was awarded a Military Meritorious Service Medal from the
+        Governor General of Canada at Rideau Hall in Ottawa.
+        Currently, he is developing Bridge Healing, a program to address the immediate needs of our
+        society’s most vulnerable individuals – patients in our emergency departments experiencing
+        homelessness.
+        A recognized storyteller Dr. Francescutti has delivered well over 1,500 presentations worldwide to
+        a variety of diverse audiences – from industry to governments and to the public.
+        He was recently appointed Chair of the Board of the Canadian Centre for Substance Use and
+        Addiction."
+        image: "/images/speakers/louisf.png"
 
   - type: "session"
     start: "10:30"
     end: "10:55"
     title: "Topic 5: Novel Serum Biomarker for Traumatic Brain Injury"
-    synopsis: ""
+    synopsis: "This talk will describe the  implementation of point-of-care GFAP/UCH-L1 biomarker testing for minor traumatic brain injury (mTBI) at two Edmonton EDs without on-site CT. Over the first 8 weeks, approximately 25 patients have been tested, demonstrating that the assay can be incorporated into routine ED care with minimal disruption and avoiding unnecessary transfers and imaging. This pilot trial is generating local data to allow for the more widespread adoption of the mTBI biomarker across Alberta."
     speakers:
       - name: "Dr. Kevin Skoblenick"
         credentials: "MD, MSc, PhD, FRCPC (Emergency Medicine)"
-        affiliation: "Royal Alexandra Hospital and University of Alberta"
-        bio: "Kevin does research."
+        bio: "Dr. Kevin Skoblenick is an emergency physician at both the Royal Alexandra Hospital and Northeast Community Health Center as well as a clinician-scientist with the University of Alberta Department of Emergency Medicine. His research focuses on integrating neuroscience into emergency care, with particular interest in biomarkers and novel interventions for brain injury, addiction, and mental health emergencies. He leads several translational initiatives, including the implementation of point-of-care diagnostics to improve decision-making and resource use in the emergency department."
         image: "/images/speakers/kevins.jpg"
 
   - type: "session"
@@ -108,10 +127,9 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Stevi Golden-Plotnik"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "MD , FRCPC (PEM)"
+        bio: "Dr. Golden-Plotnik is a Pediatric Emergency Medicine subspecialty physician. She has trained and worked at the Stollery Children's Hospital ED for over 10 years. Her non-clinical interests include medical education and research on gender in PEM."
+        image: "/images/speakers/stevigp.jpg"
 
   - type: "session"
     start: "11:20"
@@ -120,10 +138,14 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Connor O’Rielly"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "MD, MSc"
+        bio: "Connor is currently a PGY-3 and one of the 6 lead residents in the Royal College Emergency
+            Medicine program here at the University of Alberta. He completed an MSc in Epidemiology
+            with a focus on high-sensitivity troponin assays and cardiac risk stratification in the ED before
+            finishing medical school, both at the University of Calgary. More recently, his research interests
+            have been focused around prehospital and transport medicine. Excited to underline some of the
+            headliner studies our residents have worked hard on presenting at the program’s journal club!"
+        image: "/images/speakers/connoro.jpg"
 
   - type: "break"
     start: "11:45"
@@ -137,10 +159,9 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Darren Lau"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "MD, PhD, FRCPC"
+        bio: "Dr. Darren Lau (Assistant Professor, University of Alberta) is a general internal medicine physician at UAH / KEC. Among his varied diabetes-related research interests, he has examined the spread / uptake of SGLT-2 inhibitors and GLP-1 receptor agonists, and has contributed to the development of local guidelines for their use in adults with CKD. It was not too long ago that he was a trainee at RAH, and he is happy for the opportunity to share insights into "cardio-kidney-metabolic" agents with this audience."
+        image: "/images/speakers/darrenl.jpg"
 
   - type: "session"
     start: "12:55"
@@ -166,10 +187,10 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Alkarim Velji"
-        credentials: ""
+        credentials: "MD, FRCPC"
         affiliation: ""
-        bio: ""
-        image: ""
+        bio: "Dr. Alkarim Velji completed his residency training at the University of Manitoba and has been practicing at the Royal Alexandra Hospital in Edmonton since 2020. He has a background in medical education and was a teacher prior to entering medicine. He was the Medical Informatics Co-Lead for Emergency Medicine from 2021-2024 and is an all around nerd. He is excited to present to you on Connect Care practical tips."
+        image: "/images/speakers/alkarimv.png"
 
   - type: "session"
     start: "14:00"
@@ -207,10 +228,9 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Ms. Shemanti Barua"
-        credentials: ""
-        affiliation: ""
-        bio: ""
-        image: ""
+        credentials: "PharmD"
+        bio: "Shemanti Barua, PharmD, is an Emergency Department Pharmacist at the Royal Alexandra Hospital. She earned her Doctor of Pharmacy from the University of Alberta and previously served as a clinical pharmacist at Fort Saskatchewan Community Hospital and with the Home Parenteral Therapy Program (HPTP). She is passionate about advancing antimicrobial stewardship within the Emergency Department to ensure the best possible long-term patient outcomes in acute care settings."
+        image: "/images/speakers/shemantib.jpg"
       - name: "Mr. Michael Tiet"
         credentials: ""
         affiliation: ""
