@@ -10,8 +10,8 @@ accreditation:
   royal_college: "TBD"
 
 registration:
-  status: "Opening Soon"
-  url: ""
+  status: "Open - Register here:"
+  url: "https://forms.gle/SxexUHC7mcrjD55x5"
 
 schedule:
   - type: "break"

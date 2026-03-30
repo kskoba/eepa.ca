@@ -1,0 +1,76 @@
+{{ define "main" }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-8">
+
+          <!-- Breadcrumb -->
+          <div class="mb-4 text-sm text-[#3A4750] dark:text-[#D3D6DB]/70">
+            <a href="{{ "/events/" | relLangURL }}">Events</a> / {{ .Title }}
+          </div>
+
+          <!-- Title -->
+          <h1 class="mb-6 text-h3 lg:text-h2">{{ .Title }}</h1>
+
+          <!-- Two-column layout -->
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-3 md:items-start">
+
+            <!-- LEFT: meta + summary + content -->
+            <div class="md:col-span-2">
+
+              <!-- Meta -->
+              <div class="mb-6 space-y-2 text-[#3A4750] dark:text-[#D3D6DB]/80">
+                {{ with .Params.event_date }}
+                  <div><strong>Date:</strong> {{ time . | dateFormat "January 2, 2006" }}</div>
+                {{ end }}
+                {{ with .Params.event_time }}
+                  <div><strong>Time:</strong> {{ . }}</div>
+                {{ end }}
+                {{ with .Params.location }}
+                  <div><strong>Location:</strong> {{ . }}</div>
+                {{ end }}
+              </div>
+
+              <!-- Summary -->
+              {{ with .Params.summary }}
+                <p class="mb-6 text-lg text-[#303841] dark:text-[#D3D6DB]">
+                  {{ . }}
+                </p>
+              {{ end }}
+
+              <!-- Content -->
+              <div class="content">
+                {{ .Content }}
+              </div>
+
+            </div>
+
+            <!-- RIGHT: PDF preview -->
+            {{ with .Params.pdf }}
+              <div class="md:col-span-1">
+                <a href="{{ . | relURL }}" target="_blank" rel="noopener">
+                  <div class="rounded-xl border p-3 bg-white border-[#3A4750]/20 hover:shadow-md transition">
+
+                    {{ with $.Params.pdf_thumbnail }}
+                      <img src="{{ . | relURL }}"
+                           alt="Event PDF preview"
+                           class="w-full h-auto object-contain rounded">
+                    {{ else }}
+                      <div class="h-48 flex items-center justify-center text-sm text-[#3A4750]">
+                        PDF Preview
+                      </div>
+                    {{ end }}
+
+
+                  </div>
+                </a>
+              </div>
+            {{ end }}
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,65 @@
+{{ define "main" }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-8">
+          <h1 class="mb-6 text-h3 lg:text-h2">{{ .Title }}</h1>
+          <div class="content mb-10">{{ .Content }}</div>
+
+          <!-- Platinum -->
+          <div class="mb-12">
+            <h2 class="mb-4 text-2xl font-semibold text-[#303841] dark:text-[#D3D6DB] border-b border-[#3A4750]/30 pb-2">
+              Platinum Sponsor
+            </h2>
+            <div class="rounded-2xl border p-6 bg-white border-[#3A4750]/20">
+              <a href="https://www.petal-health.com/en/" target="_blank" rel="noopener">
+                <img src="/images/sponsors/petal-medical-billing.png"
+                     alt="Petal Medical Billing"
+                     class="mx-auto w-full max-w-[420px] max-h-44 h-auto object-contain">
+              </a>
+            </div>
+          </div>
+
+          <!-- Gold -->
+          <div class="mb-12">
+            <h2 class="mb-4 text-2xl font-semibold text-[#303841] dark:text-[#D3D6DB] border-b border-[#3A4750]/30 pb-2">
+              Gold Sponsors
+            </h2>
+
+            <div class="space-y-6">
+              <div class="rounded-2xl border p-6 bg-white border-[#3A4750]/20">
+                <a href="https://www.proctorteam.com/" target="_blank" rel="noopener">
+                  <img src="/images/sponsors/proctor-team-real-broker.jpg"
+                       alt="Proctor Team, Real Broker"
+                       class="mx-auto w-full max-w-[280px] max-h-32 h-auto object-contain">
+                </a>
+              </div>
+
+              <div class="rounded-2xl border p-6 bg-white border-[#3A4750]/20">
+                <a href="https://straticamedical.ca/" target="_blank" rel="noopener">
+                  <img src="/images/sponsors/stratica-dermatology.png"
+                       alt="Stratica Dermatology"
+                       class="mx-auto w-full max-w-[280px] max-h-32 h-auto object-contain">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Silver -->
+          <div class="mb-12">
+            <h2 class="mb-4 text-2xl font-semibold text-[#303841] dark:text-[#D3D6DB] border-b border-[#3A4750]/30 pb-2">
+              Silver Sponsor
+            </h2>
+            <div class="rounded-2xl border p-6 bg-white border-[#3A4750]/20">
+              <a href="https://www.bomimed.ca/" target="_blank" rel="noopener">
+                <img src="/images/sponsors/bomimed.jpg"
+                     alt="BOMImed"
+                     class="mx-auto w-full max-w-[220px] max-h-24 h-auto object-contain">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

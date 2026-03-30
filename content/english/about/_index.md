@@ -2,7 +2,7 @@
 title: "About EEPA"
 meta_title: "About"
 description: "About EEPA"
-image: "/images/ai-edmontoni.png"
+image: "/images/winteryeg2.jpg"
 layout: "about"
 draft: false
 ---

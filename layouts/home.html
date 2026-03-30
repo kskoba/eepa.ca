@@ -1,5 +1,84 @@
 {{ define "main" }}
-  <section class="mx-auto max-w-5xl py-12">
-    {{ .Content }}
+  <section class="mx-auto max-w-6xl py-12">
+    {{ with .Params.banner_image }}
+      <div class="mb-10 flex justify-center">
+        <img src="{{ . | relURL }}"
+             alt="EEPA banner"
+             class="rounded-xl max-w-full h-auto" />
+      </div>
+    {{ end }}
+
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-3 lg:items-start">
+      <!-- Left content -->
+      <div class="lg:col-span-2">
+        <h1 class="text-3xl sm:text-4xl font-bold text-[#303841] dark:text-[#D3D6DB]">
+          {{ .Params.title }}
+        </h1>
+
+        {{ with .Params.description }}
+          <p class="mt-4 text-lg text-[#3A4750] dark:text-[#D3D6DB]/80">
+            {{ . }}
+          </p>
+        {{ end }}
+
+        {{ with .Params.button_link }}
+          <div class="mt-8 flex justify-center lg:justify-start">
+            <a href="{{ . | relURL }}"
+               class="inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold
+                      bg-[#BE3144] text-[#D3D6DB] hover:opacity-90">
+              {{ $.Params.button_label }}
+            </a>
+          </div>
+        {{ end }}
+      </div>
+
+      <!-- Right news column -->
+      <aside class="lg:col-span-1">
+        {{ $newsPages := where site.RegularPages "Section" "news" }}
+        {{ $latestNews := first 3 (sort $newsPages "Date" "desc") }}
+
+        {{ if gt (len $latestNews) 0 }}
+          <section class="rounded-2xl border p-6 border-[#3A4750]/25 dark:border-[#D3D6DB]/15 bg-[#D3D6DB]/20 dark:bg-[#303841]/30">
+            <div class="mb-6">
+              <h2 class="text-2xl font-semibold text-[#303841] dark:text-[#D3D6DB]">
+                Latest News
+              </h2>
+              <p class="mt-2 text-sm text-[#3A4750] dark:text-[#D3D6DB]/70">
+                Recent updates from EEPA
+              </p>
+            </div>
+
+            <div class="space-y-5">
+              {{ range $latestNews }}
+                <article class="border-b border-[#3A4750]/20 dark:border-[#D3D6DB]/10 pb-4 last:border-b-0 last:pb-0">
+                  <div class="text-sm text-[#3A4750] dark:text-[#D3D6DB]/70">
+                    {{ .Date.Format "January 2, 2006" }}
+                  </div>
+
+                  <h3 class="mt-1 text-lg font-semibold text-[#303841] dark:text-[#D3D6DB]">
+                    <a href="{{ with .Params.event_link }}{{ . | relURL }}{{ else }}{{ .RelPermalink }}{{ end }}"
+						class="hover:text-[#BE3144]">
+                      {{ .Title }}
+                    </a>
+                  </h3>
+
+                  {{ with .Params.summary }}
+                    <p class="mt-2 text-sm text-[#3A4750] dark:text-[#D3D6DB]/80">
+                      {{ . }}
+                    </p>
+                  {{ else }}
+                    <p class="mt-2 text-sm text-[#3A4750] dark:text-[#D3D6DB]/80">
+                      {{ .Summary }}
+                    </p>
+                  {{ end }}
+                </article>
+              {{ end }}
+            </div>
+
+
+          </section>
+        {{ end }}
+      </aside>
+    </div>
   </section>
 {{ end }}

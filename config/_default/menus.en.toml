@@ -2,53 +2,30 @@
 
 # main menu
 [[main]]
+[[main]]
 name = "Home"
 url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "/about"
-weight = 5
-
-#[[main]]
-#name = "Elements"
-#url = "/elements"
-#weight = 3
-
-# [[main]]
-# weight = 4
-# name = "Pages"
-
-# [[main]]
-# parent = "Pages"
-# name = "Blog"
-# url = "/blog"
-
-# [[main]]
-# parent = "Pages"
-# name = "Contact"
-# url = "/contact"
-
-# [[main]]
-# parent = "Pages"
-# name = "Authors"
-# url = "/authors"
-
-# [[main]]
-# parent = "Pages"
-# name = "Categories"
-# url = "/categories"
-
-# [[main]]
-# parent = "Pages"
-# name = "404 Page"
-# url = "/404"
-
-[[main]]
 name = "Conference 2026"
 url = "/conference/"
 weight = 2
+
+[[main]]
+name = "Events"
+url = "/events/"
+weight = 3
+
+[[main]]
+name = "Sponsors"
+url = "/sponsors/"
+weight = 4
+
+[[main]]
+name = "About"
+url = "/about/"
+weight = 5
 
 
 # footer menu

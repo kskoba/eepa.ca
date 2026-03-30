@@ -1,13 +1,7 @@
 ---
-title: "EEPA"
+title: "Edmonton Emergency Physicians' Association"
+description: "Welcome to the new home for EEPA. Please find a link below for the 2026 conference information and registration."
+banner_image: "/images/fireworkyeg2.jpg"
+button_label: "Conference 2026"
+button_link: "/conference/"
 ---
-
-# Temporary EEPA landing page
-
-This site is under construction.
-
-<a href="/conference/"
-   class="mt-6 inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold
-          bg-[#BE3144] text-[#D3D6DB] hover:opacity-90">
-  Conference 2026
-</a>
