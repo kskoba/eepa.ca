@@ -192,7 +192,7 @@
                                     bg-[#D3D6DB]/25 dark:bg-[#303841]/30">
                       <summary class="cursor-pointer select-none text-sm font-semibold">
                         <span class="text-[#BE3144]">{{ $speakerName }}</span>
-                        {{ with $s.credentials }}<span class="font-normal text-[#3A4750] dark:text-[#D3D6DB]/70">, {{ . }}</span>{{ end }}
+                        {{ with $s.credentials }}<span class="font-normal text-[#3A4750] dark:text-[#D3D6DB]/70"> {{ . }}</span>{{ end }}
                       </summary>
 
                       <div class="mt-3 flex flex-col gap-3 sm:flex-row sm:items-start">
