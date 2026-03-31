@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(find . -type f -name *service* -o -name *manifest*)",
+      "Bash(find . -type f -name *pwa*)",
+      "Bash(xargs grep:*)",
+      "Bash(find ./content -type f \\\\\\(-name *.md -o -name *.toml -o -name *.yaml -o -name *.yml \\\\\\))",
+      "Bash(find . -path ./node_modules -prune -o -type f -name *.js -print)",
+      "Bash(grep -r \"window.location\\\\|href\\\\|redirect\\\\|meta.*refresh\" ./themes/hugoplate --include=*.html)",
+      "Bash(hugo config:*)",
+      "Bash(curl -sI -L --max-redirs 10 \"https://eepa.ca/\")",
+      "Bash(curl -sI -L --max-redirs 10 \"http://eepa.ca/\")",
+      "Bash(curl -sI -L --max-redirs 10 \"https://www.eepa.ca/\")",
+      "Bash(curl:*)",
+      "Bash(nslookup eepa.ca 8.8.8.8)",
+      "Bash(nslookup www.eepa.ca 8.8.8.8)",
+      "Bash(nslookup:*)",
+      "Bash(gh api:*)",
+      "Bash(go version:*)"
+    ]
+  }
+}
