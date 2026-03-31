@@ -38,6 +38,13 @@
                 </p>
               {{ end }}
 
+              <!-- Register button -->
+              {{ with .Params.register_url }}
+                <a href="{{ . }}" class="btn btn-primary mt-2 mb-6" target="_blank" rel="noopener">
+                  Register
+                </a>
+              {{ end }}
+
               <!-- Content -->
               <div class="content">
                 {{ .Content }}

@@ -7,5 +7,6 @@ location: "Slow Pour Beer Bar, 10416 122 St NW, Edmonton"
 summary: "Answering your questions about neurosurgery, sick neurology patients, and neuro critical care."
 pdf: "/files/events/Neuro-04-2026.pdf"
 pdf_thumbnail: "/images/events/neuro-night-04-26.png"
+register_url: "#"
 draft: false
 ---
