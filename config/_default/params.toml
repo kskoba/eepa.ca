@@ -29,6 +29,11 @@ custom_script = ""
 # copyright
 #copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
 
+# PWA
+# pwa module: https://github.com/gethugothemes/hugo-modules/tree/master/pwa
+[pwa]
+enable = false
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
