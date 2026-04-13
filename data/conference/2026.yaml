@@ -15,12 +15,12 @@ registration:
 
 schedule:
   - type: "break"
-    start: "08:00"
-    end: "08:20"
-    title: "Breakfast"
+    start: "07:30"
+    end: "08:10"
+    title: "Registration and Breakfast"
 
   - type: "session"
-    start: "08:20"
+    start: "08:10"
     end: "08:30"
     title: "Welcome to EEPA 2026"
     synopsis: ""
