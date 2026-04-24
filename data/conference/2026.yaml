@@ -2,7 +2,7 @@ year: 2026
 title: "EEPA Conference 2026"
 subtitle: "Edmonton Emergency Physicians' Association Biennial Symposium"
 
-date: "Saturday, May 23, 2026"
+date: "Tuesday, May 12, 2026"
 location: "Royal Glenora Club (The Braemar Ballroom) - 11160 River Valley Road NW Edmonton, Alberta"
 
 accreditation:
@@ -14,12 +14,12 @@ registration:
 
 schedule:
   - type: "break"
-    start: "08:00"
-    end: "08:20"
-    title: "Breakfast"
+    start: "07:30"
+    end: "08:10"
+    title: "Registration and Breakfast"
 
   - type: "session"
-    start: "08:20"
+    start: "08:10"
     end: "08:30"
     title: "Welcome to EEPA 2026"
     synopsis: ""
@@ -216,12 +216,12 @@ schedule:
       - name: "Ms. Shemanti Barua"
         credentials: "PharmD"
         bio: "Shemanti Barua, PharmD, is an Emergency Department Pharmacist at the Royal Alexandra Hospital. She earned her Doctor of Pharmacy from the University of Alberta and previously served as a clinical pharmacist at Fort Saskatchewan Community Hospital and with the Home Parenteral Therapy Program (HPTP). She is passionate about advancing antimicrobial stewardship within the Emergency Department to ensure the best possible long-term patient outcomes in acute care settings."
-        image: "/images/speakers/shemantib.jpg"
+        image: "/images/speakers/shemantib.png"
       - name: "Mr. Michael Tiet"
-        credentials: ""
+        credentials: "PharmD"
         affiliation: ""
-        bio: ""
-        image: ""
+        bio: "Michael Tiet, PharmD, is an Emergency Department Pharmacist who graduated in 2019 from the University of Alberta where he earned his Doctor of Pharmacy. After graduating, he moved to Calgary where he worked at the Foothills Medical Centre supporting their Hospitalist, Orthopedic Surgery, and Cardiology Teams. He currently works at the Royal Alexandra Hospital, where he first joined the Internal Medicine team before moving on to develop the pharmacist's role in the Emergency Department. He is always looking for ways to advance pharmacy practice in the ED and finds it rewarding when he can make a meaningful impact on a patient's care."
+        image: "/images/speakers/michaelt.png"
 
   - type: "session"
     start: "15:40"
