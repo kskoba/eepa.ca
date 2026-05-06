@@ -74,26 +74,18 @@ schedule:
   - type: "session"
     start: "10:05"
     end: "10:30"
-    title: "Topic 4: Homelessness in Edmonton, 2026"
+    title: "Topic 4: Pharmacy Update: Pearls for ordering antibiotics"
     synopsis: ""
     speakers:
-      - name: "Dr. Rob Wittmeier"
-        credentials: ""
-        bio: ""
-        image: ""
-        
-      - name: "Dr. Louis Francescutti"
-        credentials: "CD, MSM, MD, PhD, MPH, FRCPC, FACP, FACPM, CCFP(PC), FRCPI, FRCPE, FRCP, FRCPG, ICD-D, CCPE"
-        bio: "He is currently an emergency physician at the Royal Alexandra Hospital and the Northeast Community Health Centre in Edmonton, Alberta, Canada. As a professor in the School of Public Health at the University of Alberta, he teaches graduate courses in transformational leadership, advocacy and public health.
-        
-        Dr. Francescutti was selected as one of Alberta’s Top 100 Physicians of the Century by the Alberta Medical Association/College of Physicians and Surgeons of Alberta and he was also awarded theAlberta Centennial Medal from the Government of Alberta in 2005. In 2011, he was selected by Alberta Venture as one of Alberta’s 50 most influential people. In 2012, he was awarded the Queen Elizabeth II Diamond Jubilee medal. In 2022, he was awarded the Queen Elizabeth II Platinum Jubilee medal. In 2023, Louis was honored with the Order of Canada.
-        
-        From 2010 - 2013 he served as the President of the Royal College of Physicians and Surgeons of Canada and in 2014 - 2015 he then became the President of the Canadian Medical Association. He is the Honorary Colonel for 1 Health Services Group of the Royal Canadian Medical Services based in Edmonton. In 2017, he was awarded a Military Meritorious Service Medal from the Governor General of Canada at Rideau Hall in Ottawa. 
-        
-        Currently, he is developing Bridge Healing, a program to address the immediate needs of our society’s most vulnerable individuals – patients in our emergency departments experiencing homelessness.
-        
-        A recognized storyteller Dr. Francescutti has delivered well over 1,500 presentations worldwide to a variety of diverse audiences – from industry to governments and to the public. He was recently appointed Chair of the Board of the Canadian Centre for Substance Use and Addiction."
-        image: "/images/speakers/louisf.png"
+      - name: "Ms. Shemanti Barua"
+        credentials: "PharmD"
+        bio: "Shemanti Barua, PharmD, is an Emergency Department Pharmacist at the Royal Alexandra Hospital. She earned her Doctor of Pharmacy from the University of Alberta and previously served as a clinical pharmacist at Fort Saskatchewan Community Hospital and with the Home Parenteral Therapy Program (HPTP). She is passionate about advancing antimicrobial stewardship within the Emergency Department to ensure the best possible long-term patient outcomes in acute care settings."
+        image: "/images/speakers/shemantib.png"
+      - name: "Mr. Michael Tiet"
+        credentials: "PharmD"
+        affiliation: ""
+        bio: "Michael Tiet, PharmD, is an Emergency Department Pharmacist who graduated in 2019 from the University of Alberta where he earned his Doctor of Pharmacy. After graduating, he moved to Calgary where he worked at the Foothills Medical Centre supporting their Hospitalist, Orthopedic Surgery, and Cardiology Teams. He currently works at the Royal Alexandra Hospital, where he first joined the Internal Medicine team before moving on to develop the pharmacist's role in the Emergency Department. He is always looking for ways to advance pharmacy practice in the ED and finds it rewarding when he can make a meaningful impact on a patient's care."
+        image: "/images/speakers/michaelt.png"
 
   - type: "session"
     start: "10:30"
@@ -206,22 +198,30 @@ schedule:
         affiliation: ""
         bio: ""
         image: ""
-
+        
   - type: "session"
     start: "15:15"
     end: "15:40"
-    title: "Topic 13: Pharmacy Update: Pearls for ordering antibiotics"
+    title: "Topic 13: Homelessness in Edmonton, 2026"
     synopsis: ""
     speakers:
-      - name: "Ms. Shemanti Barua"
-        credentials: "PharmD"
-        bio: "Shemanti Barua, PharmD, is an Emergency Department Pharmacist at the Royal Alexandra Hospital. She earned her Doctor of Pharmacy from the University of Alberta and previously served as a clinical pharmacist at Fort Saskatchewan Community Hospital and with the Home Parenteral Therapy Program (HPTP). She is passionate about advancing antimicrobial stewardship within the Emergency Department to ensure the best possible long-term patient outcomes in acute care settings."
-        image: "/images/speakers/shemantib.png"
-      - name: "Mr. Michael Tiet"
-        credentials: "PharmD"
-        affiliation: ""
-        bio: "Michael Tiet, PharmD, is an Emergency Department Pharmacist who graduated in 2019 from the University of Alberta where he earned his Doctor of Pharmacy. After graduating, he moved to Calgary where he worked at the Foothills Medical Centre supporting their Hospitalist, Orthopedic Surgery, and Cardiology Teams. He currently works at the Royal Alexandra Hospital, where he first joined the Internal Medicine team before moving on to develop the pharmacist's role in the Emergency Department. He is always looking for ways to advance pharmacy practice in the ED and finds it rewarding when he can make a meaningful impact on a patient's care."
-        image: "/images/speakers/michaelt.png"
+      - name: "Dr. Rob Wittmeier"
+        credentials: ""
+        bio: ""
+        image: ""
+        
+      - name: "Dr. Louis Francescutti"
+        credentials: "CD, MSM, MD, PhD, MPH, FRCPC, FACP, FACPM, CCFP(PC), FRCPI, FRCPE, FRCP, FRCPG, ICD-D, CCPE"
+        bio: "He is currently an emergency physician at the Royal Alexandra Hospital and the Northeast Community Health Centre in Edmonton, Alberta, Canada. As a professor in the School of Public Health at the University of Alberta, he teaches graduate courses in transformational leadership, advocacy and public health.
+        
+        Dr. Francescutti was selected as one of Alberta’s Top 100 Physicians of the Century by the Alberta Medical Association/College of Physicians and Surgeons of Alberta and he was also awarded theAlberta Centennial Medal from the Government of Alberta in 2005. In 2011, he was selected by Alberta Venture as one of Alberta’s 50 most influential people. In 2012, he was awarded the Queen Elizabeth II Diamond Jubilee medal. In 2022, he was awarded the Queen Elizabeth II Platinum Jubilee medal. In 2023, Louis was honored with the Order of Canada.
+        
+        From 2010 - 2013 he served as the President of the Royal College of Physicians and Surgeons of Canada and in 2014 - 2015 he then became the President of the Canadian Medical Association. He is the Honorary Colonel for 1 Health Services Group of the Royal Canadian Medical Services based in Edmonton. In 2017, he was awarded a Military Meritorious Service Medal from the Governor General of Canada at Rideau Hall in Ottawa. 
+        
+        Currently, he is developing Bridge Healing, a program to address the immediate needs of our society’s most vulnerable individuals – patients in our emergency departments experiencing homelessness.
+        
+        A recognized storyteller Dr. Francescutti has delivered well over 1,500 presentations worldwide to a variety of diverse audiences – from industry to governments and to the public. He was recently appointed Chair of the Board of the Canadian Centre for Substance Use and Addiction."
+        image: "/images/speakers/louisf.png"
 
   - type: "session"
     start: "15:40"
