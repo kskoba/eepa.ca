@@ -194,10 +194,10 @@ schedule:
     synopsis: ""
     speakers:
       - name: "Dr. Arabesque Parker"
-        credentials: ""
+        credentials: "MD, FRCPC, MSc, QIPS"
         affiliation: ""
-        bio: ""
-        image: ""
+        bio: "Arabesque Parker is an Intensivist and Hematologist at the Royal Alexandra Hospital. She completed her fellowship training at the University of Alberta. Dr. Parker also holds a masters in Quality Improvement and Patient Safety from the University of Toronto. She is the Medical Director of the Royal Alexandra Hospital ICU."
+        image: "/images/speakers/aparker.jpg"
         
   - type: "session"
     start: "15:15"
@@ -207,8 +207,8 @@ schedule:
     speakers:
       - name: "Dr. Rob Wittmeier"
         credentials: ""
-        bio: ""
-        image: ""
+        bio: "Dr. Wittmeier started as a rural family physician in High Level, Alberta and after a short stint as an urban family physician returned to do the EM year in Edmonton.  He has worked at the Sturgeon and in Surrey, but always had an anchor at the Royal Alexandra and North East Community Health Centre.  He was lead at the NECHC for 8 years, and is now the medical lead for the Frequent Visitor Program in Edmonton.   Vulnerable populations and process improvement have been a common thread throughout his practice."
+        image: "/images/speakers/robw.png"
         
       - name: "Dr. Louis Francescutti"
         credentials: "CD, MSM, MD, PhD, MPH, FRCPC, FACP, FACPM, CCFP(PC), FRCPI, FRCPE, FRCP, FRCPG, ICD-D, CCPE"
